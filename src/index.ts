@@ -12,6 +12,7 @@ dotenv.config()
 const app = express()
 app.use(cookieParser())
 
+// hi
 app.use(cors({
   origin: ['http://localhost:5173', 'https://go-tracktask.vercel.app'], 
   methods: ['GET', 'POST', 'PUT', 'DELETE'],

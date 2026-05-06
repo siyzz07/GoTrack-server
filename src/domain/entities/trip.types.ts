@@ -10,6 +10,7 @@ export interface ITrip{
 }
 
 
+
 export interface ITripData {
     _id?: ObjectId|string
     tripId: string;
@@ -17,6 +18,6 @@ export interface ITripData {
     ignition: 'on' | 'off';
     location: {
         type: 'Point';
-        coordinates: [number, number]; // [longitude, latitude]
+        coordinates: [number, number]; 
     };
 }
